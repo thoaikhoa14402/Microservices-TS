@@ -2,7 +2,7 @@
   "name": "source",
   "version": "1.0.0",
   "description": "## Initialize a new Node.js project",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon src/index.ts"
@@ -11,12 +11,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.5.0",
     "express": "^5.1.0",
-    "uuid": "^11.1.0"
+    "mysql2": "^3.14.0",
+    "sequelize": "^6.37.7",
+    "uuid": "^11.1.0",
+    "zod": "^3.24.2"
   },
   "devDependencies": {
+    "@types/dotenv": "^8.2.3",
     "@types/express": "^5.0.1",
     "@types/node": "^22.14.0",
+    "@types/sequelize": "^4.28.20",
     "@types/uuid": "^10.0.0",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
